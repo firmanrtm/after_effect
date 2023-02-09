@@ -1,4 +1,5 @@
 Dibuat di Macbook Air 2017, AE 2020 :
+======= Logo Hijau =======
 - Buka AE, create new project, new composition;
 - Beri nama composition : BAKUDA, setting preset ke HDTV 1080, lalu durasi waktu 10 detik;
 - Selanjutnya impor dulu file2 yang akan digunakan;
@@ -14,4 +15,17 @@ Dibuat di Macbook Air 2017, AE 2020 :
 - Letakkan lagi timeline pada detik 0, lalu aktifkan keyframe End Offset, ubah nilainya menjadi 50. Lalu pindahkan timeline pada detik ke 4, ubah nilai Start Offset menjadi 20;
 - Selanjutnya letakkan timeline pada detik 1, lalu aktifkan keyframe End Offset, isi nilainya 100. Lalu pindahkan timeline pada detik ke 4.5, ubah nilai End Offset menjadi 0;
 - Selanjutnya pilih keyframe Distortion -> Glow Distortion. Letakkan timeline pada detik ke 2, ubah nilai Distortion Amount menjadi 20 dan Distortion Type menjadi Energy.
-- Kemudian pada keyframe bagian Render Setting, ubah Composite Setting menjadi Transparent;
+- Kemudian pada keyframe bagian Render Setting, ubah Composite Setting menjadi Transparent, ubah juga Alpha Mode menjadi Mask Glow;
+======= Logo Biru =======
+- Duplikat layer LOGO menekan ctrl+d, rename menjadi LOGO BIRU;
+- Pada layer LOGO BIRU, tekan U pada keyboard kemudian keyframe digeser sedikit ke sebelah kanan agar urutan berada setelah logo hijau;
+- Ubah preset LOGO BIRU menjadi Energize dan ubah warna menjadi biru;
+- Pada bagian Distortion -> Glow Distortion, ubah distortion amount menjadi 10, dan distortiion type menjadi Energy;
+
+- Selanjutnya masukkan composite LOGO ke dalam layer, rename menjadi LOGO FULL;
+- Tekan T pada keyboard untuk menampilkan opacity, selanjutnya letakkan Timeline pada detik 4.5 lalu aktifkan keyframe Opacity, kemudian geser Timeline ke detik 3.5, ubah nilai opacity menjadi 0;
+======= Menambah TEKS =======
+- Klik kanan pada layer, pilih New -> Text, ketikkan BADAN KEUANGAN DAERAH;
+- Ulangi langkah diatas untuk membuat satu text lagi, ketikkan PROVINSI KEPULAUAN BANGKA BELITUNG;
+- Sesuaikan posisi teks di bawah logo;
+- Selanjutnya pilih rectangle tool, buat mengelilingi seluruh teks;

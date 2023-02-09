@@ -2,3 +2,16 @@ Dibuat di Macbook Air 2017, AE 2020 :
 - Buka AE, create new project, new composition;
 - Beri nama composition : BAKUDA, setting preset ke HDTV 1080, lalu durasi waktu 10 detik;
 - Selanjutnya impor dulu file2 yang akan digunakan;
+- Masukkan logo ke timeline, kecilkan (sesuaikan) ukurannya, kemudian geser agak ke atas;
+- Klik kanan logo di timeline, pada jendela pop up compose, ubah nama menjadi LOGO, kemudian klik radio button "Move all attributes into the new composition";
+- Selanjutnya membuat masking, klik LOGO di timeline, kemudian pilih tab Layer -> Auto trace, JANGAN ceklis "Apply to new layer". Untuk menampilkan masking, klik toggle mask di bawah tampilan.
+- Selanjutnya menambahkan efek Saber, pilih tab Effect -> Video Copilot -> Saber. Kemudian presetnya diubah menjadi Electric, warna hijau. Kemudian pada bagian Costumize Core, Core Type nya diubah menjadi Layer Mask;
+- Pada bagian Resolution di bawah tampilan, pilih third;
+- Selanjutnya letakkan timeline di detik 0, aktifkan keyframe Start Size, ubah nilainya menjadi 0. Lalu letakkan timeline pada detik 1, ubah nilai start size menjadi 100;
+- Tekan tombol keyboard U untuk menampilkan keyframe dari LOGO;
+- Letakkan timeline pada detik ke 2, aktifkan keyframe Start Size di bawah LOGO. Pindahkan timeline ke detik 3, ubah nilai start size menjadi 50, kemudian pindahkan lagi timeline ke detik 4, ubah nilai start size menjadi 0;
+- Sekarang letakkan timeline pada detik 0, lalu aktifkan keyframe Start Offset, ubah nilainya menjadi 100. Lalu pindahkan timeline pada detik ke 4, ubah nilai Start Offset menjadi 0;
+- Letakkan lagi timeline pada detik 0, lalu aktifkan keyframe End Offset, ubah nilainya menjadi 50. Lalu pindahkan timeline pada detik ke 4, ubah nilai Start Offset menjadi 20;
+- Selanjutnya letakkan timeline pada detik 1, lalu aktifkan keyframe End Offset, isi nilainya 100. Lalu pindahkan timeline pada detik ke 4.5, ubah nilai End Offset menjadi 0;
+- Selanjutnya pilih keyframe Distortion -> Glow Distortion. Letakkan timeline pada detik ke 2, ubah nilai Distortion Amount menjadi 20 dan Distortion Type menjadi Energy.
+- Kemudian pada keyframe bagian Render Setting, ubah Composite Setting menjadi Transparent;
